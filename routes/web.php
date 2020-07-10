@@ -25,5 +25,5 @@ Route::get('facture/{n}', function($n) {
 Route::get('users', 'UsersController@getInfos');
 Route::post('users', 'UsersController@postInfos');
 
-Route::get('contact', 'ContactController@getInfos');
-Route::post('contact', 'ContactController@postInfos');
+Route::get('contact', 'ContactController@getForm');
+Route::post('contact', 'ContactController@postForm');
